@@ -1,0 +1,22 @@
+{
+  "name": "amblogger",
+  "version": "1.0.0",
+  "description": "this is just a simple blogging web app",
+  "main": "app.js",
+  "engines": {
+    "node": "14.15.0",
+    "npm": "7.0.11"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Neeraj",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.16"
+  }
+}
